@@ -25,6 +25,8 @@ This project focuses on **multi-label emotion classification** using deep learni
 
 ## 🧠 Model Architecture
 
+![Model Architecture](images/model.jpg)
+
 The proposed model (“**EMOdel**”) includes:
 
 ### 1. RoBERTa
@@ -147,18 +149,6 @@ Model output:
 - remorse  
 
 Even though the later sentences contain positive language, the model correctly captures the emotional meaning.
-
----
-
-## ▶️ Usage Example
-
-```python
-from model import EMOdel
-
-model = EMOdel.load_from_checkpoint("path/to/checkpoint")
-prediction = model.predict("I can't believe this happened!")
-print(prediction)
-```
 
 ---
 
