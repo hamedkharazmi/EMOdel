@@ -25,7 +25,7 @@ This project focuses on **multi-label emotion classification** using deep learni
 
 ## 🧠 Model Architecture
 
-![Model Architecture](images/model.jpg)
+<!--![Model Architecture](images/model.jpg)-->
 
 The proposed model (“**EMOdel**”) includes:
 
